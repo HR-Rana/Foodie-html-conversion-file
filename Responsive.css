@@ -1,0 +1,468 @@
+
+
+
+:root {
+    --primary: #eb4d55;
+    --secondary: #eee6cc;
+    --assistColor:#faf5e4;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .logo-area{
+        padding:0px 15px;
+    }
+    .logo{
+        text-align: left;
+        margin: 0;
+    }
+    .short-menu i{
+        font-size: 25px;
+        display: block;
+    }
+  
+    header .menu{
+        width: 250px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: var(--secondary);
+        padding: 40px 0px;
+        height: 105vh;
+        position: fixed;
+        z-index:999999999;
+        text-align: center;
+       padding-top: 50px;
+       display: none;
+    }
+    .menu-area{
+      position: relative;
+    }
+    .menu-area .close{
+        position: absolute;
+        left: 5%;
+        top: 25px;
+        color:var(--primary);
+        font-size: 25px;
+        position: absolute;
+        z-index: 9999999;
+        cursor: pointer;
+        display: block;
+    }
+    .menu ul{
+        margin-top: 50px;
+    }
+    .menu ul li{
+        width: 100%;
+        display: block;
+        margin: 5px 0;
+      
+    }
+    header .menu ul li a{
+        color: var(--primary);
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    header .body-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header h1{
+        font-size: 65px;
+        letter-spacing: 5px;
+    }
+    header p{
+        width: 100%;
+        margin: 15px auto;
+       text-align: center;
+       margin-top: -20px;
+       padding: 15px 30px;
+       letter-spacing: .5px;
+    }
+    .header-layer{
+        padding: 0px;
+    }
+
+        
+    header button{
+        width: 50%;
+        background-color:var(--secondary);
+    
+        padding: 5px 6px;
+        border: 1px solid white;
+        color: var(--primary);
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    .section1 img{
+        width: 250px;
+        height: 250px;
+    }   
+    h2{
+        font-size:32px;
+        font-weight:400;
+    }
+    .section1 .heading-top p{
+        width:90%;
+        margin: 10px auto;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .heading-top{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .heading-top h2{
+        font-size: 45px;
+    }
+    .heading-top p{
+        width: 100%;
+        margin: 10px auto;
+        font-weight: 600;
+        letter-spacing: .5px;
+    }
+    .pasta{
+        margin: 15px 0;
+        border-bottom: 1px solid rgb(229, 229, 229);
+        padding: 25px 0;
+    }
+    .pasta h2{
+        font-size: 30px;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+    .section2 .flex-box{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .section2 .circle-box{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .section2 .circle{
+        width:150px;
+        margin: 10px auto;
+        height: 150px;
+       }
+
+    .section4 .right-site{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 10%;
+        height: 60vh;
+        text-align: center;
+        justify-content: center;
+    }
+    .section4 .right-site h3{
+        font-size: 42px;
+        letter-spacing: 1px;
+    }
+
+    .section4 .right-site p{
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .section4 .right-site button{
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 500;
+    text-align: center;
+    }
+    .section5 .item p{
+        width: 100%;
+        margin: 15px auto;
+        font-weight: 500;
+    }
+
+    .section6 p{
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        text-align:justify;
+        margin: 15px auto;
+    }
+    .section6 .name h5{
+        font-size: 40px;
+    }
+
+    .section7 h3{
+        font-size: 42px;
+        margin: 0;
+    }
+    .section7 .mail-fill{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section7 .mail{
+        width:70%;
+        margin: 0 auto;
+        position: relative;
+    }.section7 .mail input{}
+    
+    .section7 .submit input{
+        right: 20px;
+        margin-left: 0px;
+        width: 25%;
+        font-weight: 300;
+    }
+    .section7 .submit input{
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+    }
+     
+    .section7{
+        padding: 30px 0px;
+    }
+    .section7 p{
+        width: 100%;
+        margin: 15px auto;
+        font-weight:400;  
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+    .logo{
+        width: 40%;
+        text-align: left;
+        margin: 0;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    header button{
+        width: 50%;
+        margin-bottom: 35px;
+     
+    }
+    header h1{
+       font-size: 50px;
+    }
+
+    .heading-top p{
+        width: 100%;
+        margin: 10px auto;
+        font-weight: 600;
+        letter-spacing: .5px;
+       
+    }
+
+    .section1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .section1 .heading-top p{
+        width:95%;
+        margin: 10px auto;
+        font-weight: 500;
+        text-align: center;
+    }
+    .heading-top{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .heading-top h2{
+        font-size: 45px;
+    }
+    .heading-top p{
+        width: 90%;
+        margin: 10px auto;
+        font-weight: 600;
+        letter-spacing: .5px;
+    }
+ 
+
+    .section2 .circle{
+        width: 100px;
+        margin: 10px auto;
+        height: 100px;
+       }
+       .section2 .circle p{
+        font-size: 14px;
+        text-align: center;
+        font-weight: 300;
+    }
+    .section2 h2{
+        color: white;
+        margin-top: 25px;
+        font-size: 35px;
+    }.section2 h3:nth-child(3){
+        margin-left: -15px;
+        display: none;
+    }.section2 h3{
+        color: white;
+        font-size: 18px;
+    }
+    .section2 .heading-top p{
+        width: 100%;
+        margin: 10px auto;
+        font-weight: 400;
+        letter-spacing: .5px;
+    }.heading-top p{
+        width: 100%;
+        margin: 10px auto;
+        font-weight: 400;
+        letter-spacing: .5px;
+    }
+
+
+    .section4 .right-site{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 32%;
+        height: 100%;
+    }
+    .section4 .right-site{
+        width:100%;
+        margin: 0 auto;
+        position: relative;
+        top: 32%;
+        height: 100%;
+    }
+
+
+
+
+
+    .section4 .right-site{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 10%;
+        height: 60vh;
+        text-align: center;
+        justify-content: center;
+    }
+    .section4 .right-site h3{
+        font-size: 42px;
+        letter-spacing: 1px;
+    }
+    
+    .section4 .right-site p{
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    
+.section4 .right-site button{
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 500;
+   text-align: center;
+}
+    .section5 .item p{
+        width: 100%;
+        margin: 15px auto;
+        font-weight: 500;
+    }
+
+
+    .section6 p{
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        text-align:justify;
+        margin: 15px auto;
+    }
+    .section6 .name h5{
+        font-size: 40px;
+    }
+
+    .section7 h3{
+        font-size: 42px;
+        margin: 0;
+    }
+    .section7 .mail-fill{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section7 .mail{
+        width:70%;
+        margin: 0 auto;
+        position: relative;
+    }.section7 .mail input{}
+    
+    .section7 .submit input{
+        right: 20px;
+        margin-left: 0px;
+        width: 25%;
+        font-weight: 300;
+    }
+    .section7 .submit input{
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+    }
+     
+    .section7{
+        padding: 30px 0px;
+    }
+    .section7 p{
+        width: 100%;
+        margin: 15px auto;
+        font-weight:400;  
+        text-align: justify;
+    }
+    .flex-box{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+       font-size: 14px;
+       margin-top: 25px;
+    }
+
+    .footer-area .follow{
+        font-size: 14px;
+    } .footer-area .follow i{
+        font-size: 18px;
+    }
+}

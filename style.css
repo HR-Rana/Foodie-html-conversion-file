@@ -1,0 +1,641 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato&display=swap');
+
+
+
+
+
+
+
+
+
+
+{
+  body:  font-family: lato-regular;
+   heading: font-family: GrandHotel Regular;
+
+}
+
+
+/* +++++++++ common CSS ++++++++++++++ */
+:root {
+    --primary: #eb4d55;
+    --secondary: #eee6cc;
+    --assistColor:#faf5e4;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+body h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    color: #eb4d55;
+
+    font-family: 'Grand Hotel', cursive;
+}
+
+
+.layer{
+    background-color: rgba(235,77,85,.8);
+    width: 100%;
+    height: 100%;
+}
+
+
+button{
+    background-color: var(--primary);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+button:hover{
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+
+button{
+    padding: 5px 0;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+
+
+
+
+
+
+
+section{
+ padding: 50px 0;
+}
+
+/* +++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-area{
+    position: relative;
+}
+.short-menu{
+    position: absolute;
+    top: 43%;
+    right: 10px;
+}
+.short-menu i:hover{
+    cursor: pointer;
+}
+.short-menu i{
+    font-size: 25px;
+    display: none;
+}
+.close{
+    display: none;
+}
+
+
+
+
+
+
+.logo{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header .body-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    /* background:linear-gradient(to right, rgba(232,86,94,.7)),url(images/Banner.jpg); */
+    background-image: url(images/Banner.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 152px;
+    letter-spacing: 5px;
+    margin-top: 45px;
+    font-weight: 400;  
+}
+header p{
+    width: 80%;
+    margin: 35px auto;
+   text-align: center;
+   margin-top: -15px;
+   letter-spacing: .5px;
+}
+.header-layer{
+    /* background-color:rgba(232,86,94,.30); */
+    background-color: #ff3b45ad;
+    padding: 30px;
+}
+header .button{
+    text-align: center;
+}
+header button{
+    width: 30%;
+    background-color:var(--secondary);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 5px 6px;
+    border: 1px solid white;
+    color: var(--primary);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+header .menu{}
+header .menu ul{}
+header .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 8px;
+}
+header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+header .menu li a:hover{
+    color: black;
+    font-weight: 600;
+}
+
+header .menu-area{
+    width: 100%;
+    text-align: center;
+}
+header .menu{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.section1{
+    background:linear-gradient(to right, rgba(255,255,255, .5), rgba(255,255,255, .5)) ,url(images/sec2\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+}
+
+.section1 .heading-top{
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.section1 .heading-top
+h2{
+    font-size:72px;
+    font-weight:400;
+}
+.section1 .heading-top p{
+    width:40%;
+    margin: 10px auto;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.section2{
+    background:url(images/section4\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    height: 80vh;
+    padding: 50px;
+}
+
+.section2 .flex-box{
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+.section2 h3{
+   font-family: lato-regular;
+}
+
+
+.section2 .circle-box{
+    width: 30%;
+    height: 200px;
+    justify-content: space-between;
+}
+.section2 .circle{
+    width: 80%;
+    margin: 10px auto;
+   height: 100%
+   ;
+    border: 3px dashed white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   text-align: center;
+   position: relative;
+  font-family:'Times New Roman', Times, serif;
+}
+.section2 .circle .circle-text{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+   font-family: lato-regular;
+}
+
+.section2 .circle-box{
+    display: inline-block;
+}
+.section2 .circle p{
+    font-size: 20px;
+    text-align: center;
+}
+.section2 h2{
+    color: white;
+    margin-top: 50px;
+}.section2 h3{
+    color: white;
+    font-size: ;
+}
+.section2 .layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+
+
+.heading-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading-top h2{
+    font-size: 65px;
+}
+.heading-top p{
+    width: 40%;
+    margin: 10px auto;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+
+
+
+
+.section3{
+    background-color:var(--secondary);
+}
+
+.section3 img{
+    width: 90px;
+    margin: 15px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+.section3 .detail{
+    margin: 10px 0;
+}
+
+.section3 h4{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+.section4{
+    padding: 0;
+}
+.section4 .left-site{
+    background-image: url(images/images\ for\ section4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.section4 .left-site .background{
+    background-color: #f7091500;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.section4 .right-site{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 32%;
+    height: 100%;
+}
+.section4 .right-site h3{
+    font-size: 72px;
+    letter-spacing: 1px;
+}
+
+.section4 .right-site p{
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.section4 .right-site button:hover{
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+.section4 .right-site button{
+    width: 40%;
+    padding: 5px 0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+
+
+
+
+
+
+.section5{
+    background-color: var(--secondary);
+    text-align: center;
+}
+.section5 .item{
+    width: 90%;
+    margin: 15px auto;
+    background-color: var(--assistColor);
+    padding: 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.section5 .item h4{
+    font-size: 36px;
+}
+.section5 .item p{
+    width: 90%;
+    margin: 15px auto;
+    font-weight: 600;
+}
+.section5 img{
+    margin-bottom: 50px;
+}
+
+
+.section5 button{
+    width: 45%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+
+
+
+
+
+.section6{
+    background-image: url(images/girl\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+    text-align: center;
+   
+}
+.section6 .Girl-Photo-area{
+    text-align: center;
+}
+.section6 .Girl-Photo-area img{
+    width:200px;
+    height: 200px;
+    text-align: center;
+}
+
+.section6 p{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px auto;
+}
+
+.section6 .name h5{
+    font-size: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+.section7{
+    background-color: var(--secondary);
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.section7 h3{
+    font-size: 72px;
+}
+
+.section7 .mail-fill{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+.section7 .mail-fill{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section7 .mail{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}.section7 .mail input{
+    width: 100%;
+    position: relative;
+    
+}
+.section7 .mail input{
+    position: relative;
+}
+.section7 .submit input:hover{
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+.section7 .submit input{
+    position: absolute;
+    right:50px;
+    top: 0;
+    width: 20%;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 600;
+    border-radius:15px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+    margin-left: -50px;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.section7 p{
+    width: 50%;
+    margin: 15px auto;
+    font-weight:500;
+   
+}
+
+
+
+
+
+
+.footer-area{
+    background-color: black;
+    color: white;
+    font-family: lato-regular;
+}
+
+.footer-area .footer-about h4{
+    font-size: 30px;
+    font-family: lato-regular;
+    color: white;
+   letter-spacing: 1px;
+}
+.flex-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-area .about{}
+.footer-area .about a{
+    display: block;
+    color: white;
+    margin: 2px 0;
+    text-decoration: none;
+}
+.footer-area .service {}
+.footer-area .service a{
+    display: block;
+    color: white;
+    margin: 2px 0;
+    text-decoration: none;
+}
+.footer-area h4{
+    color: white;
+    font-family: lato-regular;
+}.footer-area .follow {
+  
+}
+.footer-area .follow li{
+    list-style: none;
+    font-size: 18px;
+}
+.footer-area .follow li i{
+    font-size: 22px;
+    margin-right: 10px;
+   margin: 5px 10px;
+}
+
+.footer-area a:hover{
+    border-bottom: 1px solid rgb(255, 0, 17);
+}
